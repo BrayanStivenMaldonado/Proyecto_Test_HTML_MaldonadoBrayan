@@ -1,0 +1,775 @@
+@font-face {
+    font-family: Light;
+    src: url(font/MyriadPro-Light.otf);
+}
+
+@font-face {
+    font-family: Regular;
+    src: url(font/MYRIADPRO-REGULAR.OTF);
+}
+
+@font-face {
+    font-family: Italica;
+    src: url(font/MYRIADPRO-SEMIBOLDIT.OTF);
+}
+
+body{
+    margin: 0%;
+    font-family: Regular;
+    max-width: 1920px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.General {
+    width: 100vw;
+    max-width: 1920px;
+    height: auto;
+    overflow: hidden;
+}
+
+.Cabecera{
+    max-width: 1920px;
+    position: fixed; z-index: 1;
+    width: 100%;
+    height: 15vh;
+    background-color: #3669c9;
+}
+
+.Primera{
+    background-image: url(media/Fondo@2x.png);
+    background-size: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 135vh;
+    max-height: 56vw;
+    max-width: 1920px;
+    margin-top: 10.5vh;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.Mostrar{
+    width: 4rem;
+    height: 4rem;
+    background-color: black;
+    position: absolute;
+    margin-top: -12rem;
+}
+
+.Adentro1{
+    position: absolute; z-index: 0;
+    width: 39rem;
+    height: 49.3rem;
+    background-color: white;
+    margin-left: 7rem;
+    top: 15rem;
+    border-radius: 5%;
+    align-items: center;
+}
+
+.text1 {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+}
+
+.text2 {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: -2rem;
+    line-height: 1.7rem;
+}
+
+.Adentro1 label{
+    font-size: 1rem;
+}
+.Adentro1 input{
+    width: 90%;
+    height: 2.688rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+#fechaExpedicion{
+    width: 90%;
+    height: 2.8rem;
+}
+.Adentro1 select{
+    margin-bottom: 1rem;
+    width: 90%;
+    height: 3rem;
+    font-size: 1rem;
+}
+#envioFormulario{
+    background-color:#157FFB;
+    border: none;
+    color: white;
+    height: 2.5rem;
+    width: 13.063rem;
+    margin-top: -1rem;
+    margin-left: 13rem;
+    border-radius: 1.87rem ;
+}
+
+.Adentro2{
+    position: absolute;
+    width: 40rem;
+    height: 25rem;
+    margin-left: 65.5rem;
+    margin-top: 23.5rem;
+
+}
+
+#Titulo{
+    font-family: Light;
+    font-size: 3.5rem;
+}
+
+#Contenido{
+    font-family: Light;
+    font-size: 1.75rem;
+    margin-top: -3rem;
+    color: rgb(54, 54, 54);
+    line-height: 2.5rem;
+}
+
+.Conocer{
+    font-size: 1.3rem;
+    font-family: Light;
+    background-color: #157ffb;
+    width: 12rem;
+    height: 3.2rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 0.8rem;
+    color: white;
+    margin-left: 15.5rem;
+}
+
+.ConsultarTop{
+    position:sticky;
+    font-size: 2rem;
+    background-color: white;
+    width: 14rem;
+    height: 3.5rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 2rem;
+    margin-left: 100rem;
+    margin-top: 3rem;
+}
+
+#TextoConsultar{
+    text-decoration: none;
+    color: black;
+}
+
+.Segunda{
+    margin-top: -2rem;
+    width: 100%;
+    height: 84vh;
+    max-width: 1920px;
+}
+
+.Mostrar2{
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    margin-top: -11rem;
+}
+
+#Pregunta{
+    font-family: Light;
+    font-size: 3.5rem;
+    margin-left: 40rem;
+    margin-top: 4rem;
+}
+
+#Dos{
+    text-decoration: none;
+    color: white;
+}
+
+#Explicacion{
+    position: absolute;
+    font-family: Light;
+    text-align:center;
+    font-size: 2.3rem;
+    margin-left: 5rem;
+    margin-top: 0.5rem;
+    line-height: 3.1rem;
+}
+
+#Paracaidas{
+    position: absolute;
+    margin-left: 60rem;
+    margin-top: -6rem;
+}
+
+.Bajar{
+    background-color: rgb(255, 255, 255);
+    font-family: Light;
+    font-size: 1.6rem;
+    position: absolute;
+    width: 20rem;
+    height: 8rem;
+    margin-top: 40rem;
+    margin-left: 23rem;
+}
+
+#flecha{
+    position: absolute;
+    width: 1.5rem;
+    margin-left: -10rem;
+    margin-top: 3rem;
+}
+
+.Tercera{
+    width: 100%;
+    height: 88vh;
+    max-width: 1920px;
+}
+
+#Bajar3{
+    text-decoration: none;
+    color: black;
+}
+
+#Etapas{
+    position: absolute;
+    font-family: Light;
+    font-size: 3.5rem;
+    margin-left: 47rem;
+    margin-top: 2rem;
+}
+
+#Entrega{
+    position: absolute;
+    font-family: Light;
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: white;
+    margin-top: -3.5rem;
+    margin-left: 80rem;
+}
+
+#Logo{
+    position: absolute;
+    width: 22rem;
+    height: 4rem;
+    margin-left: 50rem;
+    margin-top: -4rem;
+}
+
+#Queso{
+    position: absolute;
+    font-family: Light;
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: white;
+    margin-top: -3.5rem;
+    margin-left: 30rem;
+}
+
+#Inicio{
+    position: absolute;
+    font-family: Light;
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: white;
+    margin-top: -3.5rem;
+    margin-left: 15rem;
+}
+
+#Etapitas{
+    position: absolute;
+    font-family: Light;
+    font-size: 2.5rem;
+    margin-top: 10rem;
+    margin-left: 16rem;
+}
+
+#Fechas{
+    position: absolute;
+    font-family: Regular;
+    font-size: 2.8rem;
+    margin-top: 16rem;
+    margin-left: 10rem;
+}
+
+#Bancos{
+    position: absolute;
+    font-family: Light;
+    font-size: 3.5rem;
+    margin-left: 45rem;
+    margin-top: 25rem;
+}
+
+#Bancamia{
+    position: absolute;
+    margin-top: 29.3rem;
+    margin-left: 8rem;
+}
+
+#Bancolombia{
+    position: absolute;
+    width: 30rem;
+    margin-left: 44rem;
+    margin-top: 26rem;
+}
+
+#CajaSocial{
+    position: absolute;
+    width: 30rem;
+    margin-top: 32rem;
+    margin-left: 80rem;
+}
+
+#Movii{
+    position: absolute;
+    width: 15rem;
+    margin-top: 43rem;
+    margin-left: 35rem;
+}
+
+#Daviplata{
+    width: 17rem;
+    margin-top: 39rem;
+    margin-left: 65rem;
+}
+
+#Preguntas{
+    font-family: Light;
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    margin-top: 52rem;
+    margin-left: -30rem;
+}
+
+#flecha2{
+    position: absolute;
+    width: 1.2rem;
+    margin-top: 55rem;
+    margin-left: -24.5rem;
+}
+
+.Cuarta{
+    border: 1px solid #ffffff;
+    width: 100%;
+    height: 88vh;
+    max-width: 1920px;
+    margin-top: -2.5rem;
+}
+
+.Mostrar3{
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    margin-top: -9rem;
+}
+
+#Pf1{
+    position: absolute;
+    font-family: Light;
+    font-size: 3.5rem;
+    margin-left: 44rem;
+    margin-top: 2rem;
+}
+
+#Circulo1{
+    width: 4rem;
+    height: 4rem;
+    background-color: #157ffb;
+    border-radius: 50%;
+    font-family: Regular;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-left: 57rem;
+    margin-top: 8rem;
+}
+
+#Texto1{
+    font-size: 2.8rem;
+    font-family: Italica;
+    text-align: center;
+    margin-left: -3rem;
+    margin-top: -0.1rem;
+}
+
+#Texto2{
+    font-size: 2.4rem;
+    font-family: Light;
+    text-align: center;
+}
+
+#Circulo2{
+    width: 4rem;
+    height: 4rem;
+    background-color: #157ffb;
+    border-radius: 50%;
+    font-family: Regular;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-left: 57rem;
+    margin-top: rem;
+}
+
+#Texto3{
+    font-size: 2.8rem;
+    font-family: Italica;
+    text-align: center;
+    margin-left: -1rem;
+    margin-top: -0.1rem;
+}
+
+#Texto4{
+    font-size: 2.4rem;
+    font-family: Light;
+    text-align: center;
+    margin-top: -1.5rem;
+}
+
+#Ver{
+    font-family: Light;
+    position: absolute;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-left: 56rem;
+    margin-top: -1rem;
+    color: rgb(54, 54, 54);
+}
+
+#flecha3{
+    position: absolute;
+    width: 1.2rem;
+    margin-left: 57.6rem;
+    margin-top: 2rem;
+}
+
+.Quinta{
+    width: 100%;
+    height: 88vh;
+    max-width: 1920px;
+    margin-top: -1rem;
+}
+
+.Mostrar4{
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    margin-top: -8rem;
+}
+
+#Circulo3{
+    width: 4rem;
+    height: 4rem;
+    background-color: #157ffb;
+    border-radius: 50%;
+    font-family: Regular;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-left: 57rem;
+    margin-top: 2rem;
+}
+
+#Texto5{
+    position: absolute;
+    font-size: 2.8rem;
+    font-family: Italica;
+    margin-left: 5rem;
+    margin-top: -0.3rem;
+}
+
+#Texto6{
+    position: absolute;
+    font-size: 2.3rem;
+    font-family: Light;
+    text-align: center;
+    margin-top: 4.3rem;
+    margin-left: 8rem;
+    line-height: 3.1rem;
+}
+
+#Circulo4{
+    width: 4rem;
+    height: 4rem;
+    background-color: #157ffb;
+    border-radius: 50%;
+    font-family: Regular;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-left: 57rem;
+    margin-top: 23.8rem;
+    position: absolute;
+}
+
+#Texto7{
+    position: absolute;
+    font-size: 2.8rem;
+    font-family: Italica;
+    margin-left: 17.5rem;
+    margin-top: 28.5rem;
+    text-align: center;
+}
+
+#Texto8{
+    position: absolute;
+    font-size: 2.3rem;
+    font-family: Light;
+    text-align: center;
+    margin-top: 36rem;
+    margin-left: 2rem;
+    line-height: 3.1rem;
+}
+
+#Ver2{
+    font-family: Light;
+    position: absolute;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-left: 56rem;
+    margin-top: 47rem;
+    color: rgb(54, 54, 54);
+}
+
+#Flecha4{
+    position: absolute;
+    width: 1.2rem;
+    margin-left: 57.6rem;
+    margin-top: 50rem;
+}
+
+.Mostrar5{
+    width: 2rem;
+    height: 2rem;   
+    margin-top: -9.5rem;
+    position: absolute;
+}
+
+.Sexta{
+    border: 1px solid rgb(255, 255, 255);
+    width: 100%;
+    height: 88vh;
+    max-width: 1920px;
+    margin-top: -1rem;
+}
+
+#Circulo5{
+    width: 4rem;
+    height: 4rem;
+    background-color: #157ffb;
+    border-radius: 50%;
+    font-family: Regular;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-left: 57rem;
+    position: absolute;
+}
+
+#Texto9{
+    position: absolute;
+    font-size: 2.8rem;
+    font-family: Italica;
+    margin-left: 2rem;
+    margin-top: 6.4rem;
+    text-align: center;
+}
+
+#Texto10{
+    position: absolute;
+    font-size: 2.3rem;
+    font-family: Light;
+    text-align: center;
+    margin-top: 11rem;
+    margin-left: 30rem;
+    line-height: 3.1rem;
+}
+
+.tmp{
+    position: absolute;
+    background-color: #157ffb;
+    width: 110rem;
+    height: 20rem;
+    margin-left: 5rem;
+    margin-top: 22rem;
+    border-radius: 3rem;
+    display: flex;
+    text-align: center;
+}
+
+#Texto11{
+    position: absolute;
+    color: white;
+    font-size: 3.5rem;
+    font-family: Regular;
+    font-weight: 1000;
+    margin-left: 36.2rem;
+    margin-top: 1.5rem;
+}
+
+#Texto12{
+    position: absolute;
+    color: white;
+    font-family: Light;
+    font-size: 2.3rem;
+    margin-top: 8rem;
+    margin-left: 18rem;
+    letter-spacing: 0.1rem;
+    font-weight:lighter;
+}
+
+.Contactanos{
+    font-family: Light;
+    font-size: 1.2rem;
+    width: 13rem;
+    height: 3rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    background-color: white;
+    border-radius: 1rem;
+    margin-left: 47rem;
+    margin-top: 14rem;
+}
+
+.Pie{
+    width: 100%;
+    height: 10rem;
+    background-color: #3669c9;
+    margin-top: 50rem;
+}
+
+#Gov{
+    position: absolute;
+    width: 20rem;
+    margin-left: 47.5rem;
+    margin-top: 2rem;
+}
+
+#Facebook{
+    position: absolute;
+    margin-left: 60rem;
+    margin-top: 6rem;
+    width: 2.5rem;
+}
+
+#Instagram{
+    position: absolute;
+    margin-left: 58rem;
+    margin-top: 6rem;
+    width: 2.5rem;
+}
+
+#Twitter{
+    position: absolute;
+    margin-left: 56rem;
+    margin-top: 6rem;
+    width: 2.5rem;
+}
+
+#Phone{
+    position: absolute;
+    width: 2rem;
+    margin-left: 100rem;
+    margin-top: 1rem;
+}
+
+#Location{
+    position: absolute;
+    width: 1.5rem;
+    margin-left: 20rem;
+    margin-top: 0.8rem;
+}
+
+#t1{
+    position: absolute;
+    color: white;
+    font-family: Light;
+    margin-left: 93rem;
+    margin-top: 3.2rem;
+}
+
+#t2{
+    position: absolute;
+    color: white;
+    font-family: Light;
+    margin-left: 94rem;
+    margin-top: 4.5rem;
+}
+
+#t3{
+    position: absolute;
+    color: white;
+    font-family: Light;
+    margin-left: 95rem;
+    margin-top: 5.8rem;
+}
+
+#t4{
+    position: absolute;
+    color: white;
+    font-family: Light;
+    margin-left: 92.3rem;
+    margin-top: 7.1rem;
+}
+
+#t5{
+    position: absolute;
+    color: white;
+    font-family: Light;
+    margin-left: 17rem;
+    margin-top: 3.2rem;
+}
+
+#t6{
+    position: absolute;
+    color: white;
+    font-family: Light;
+    margin-left: 12rem;
+    margin-top: 4.5rem;
+}
+
+#t7{
+    position: absolute;
+    color: white;
+    font-family: Light;
+    margin-left: 16rem;
+    margin-top: 5.8rem;
+}
+
+#t8{
+    position: absolute;
+    color: white;
+    font-family: Light;
+    margin-left: 12.2rem;
+    margin-top: 7.1rem;
+}
