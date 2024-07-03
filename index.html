@@ -9,13 +9,11 @@
 <body>
     <div class="General" id="General">
         <div class="Cabecera">
-            <div class="ConsultarTop">
-                <a id="TextoConsultar" href="#First">Consultar</a>
-            </div>
-            <a id="Entrega" href="#Third">Entrega</a>
-            <img id="Logo" src="media/gobiernodecolombia@2x.png">
-            <a id="Queso" href="#Second">¿Qué es?</a>
             <a id="Inicio" href="#First">Inicio</a>
+            <a id="Inicio" href="#Second">¿Qué es?</a>
+            <img id="Logo" src="media/gobiernodecolombia@2x.png">
+            <a id="Inicio" href="#Third">Entrega</a>
+            <button id="Boton"><p>Consultar</p></button>
         </div>
 
         <div class="Primera">
@@ -23,27 +21,29 @@
             <div class="Adentro1">
                 <p class="text1">Consulta tu estado del <br>Ingreso <br>Solidario</p>
                 <p class="text2">Por favor ingresa tus datos personales para revisar el estado de entrega <br> de tu ingreso.</p>
-                <form action="#">
-                    <label for="documento">Tipo de Documento</label> <br>
-                    <select name="lenguajes" id="documento">
-                        <option value="CC">Cédula de Ciudadania</option>
-                        <option value="TI">Tarjeta de identidad</option>
-                        <option value="CE">Cédula extranjera</option>
-                        <option value="NIT">NIT</option>
-                        <option value="pasaporte">Pasaporte</option>
-                    </select> <br>
-                    <label for="numeroDocumento">Número de Documento</label> <br>
-                    <input type="number" id="numeroDocumento"/> <br>
-                    <label for="primerNombre">Primer Nombre</label> <br>
-                    <input type="text" id="primerNombre"/> <br>
-                    <label for="primerApellido">Primer Apellido</label> <br>
-                    <input type="text" id="primerApellido"/> <br>
-                    <label for="fechaExpedicion">Fecha de expedición del documento</label> <br>
-                    <input type="date" id="fechaExpedicion"/> <br>
-                    <label for="numeroTelefono">Teléfono Móvil</label> <br>
-                    <input type="number" id="numeroTelefono"/>
-                    <input type="submit" id="envioFormulario" value="Consultar"/>
-                </form>
+                <div class="Cosas">
+                    <form action="#">
+                        <label for="documento">Tipo de Documento</label> <br>
+                        <select name="lenguajes" id="documento">
+                            <option value="CC">Cédula de Ciudadania</option>
+                            <option value="TI">Tarjeta de identidad</option>
+                            <option value="CE">Cédula extranjera</option>
+                            <option value="NIT">NIT</option>
+                            <option value="pasaporte">Pasaporte</option>
+                        </select> <br>
+                        <label for="numeroDocumento">Número de Documento</label> <br>
+                        <input type="number" id="numeroDocumento"/> <br>
+                        <label for="primerNombre">Primer Nombre</label> <br>
+                        <input type="text" id="primerNombre"/> <br>
+                        <label for="primerApellido">Primer Apellido</label> <br>
+                        <input type="text" id="primerApellido"/> <br>
+                        <label for="fechaExpedicion">Fecha de expedición del documento</label> <br>
+                        <input type="date" id="fechaExpedicion"/> <br>
+                        <label for="numeroTelefono">Teléfono Móvil</label> <br>
+                        <input type="number" id="numeroTelefono"/>
+                        <input type="submit" id="envioFormulario" value="Consultar"/>
+                    </form>
+                </div>
             </div>
             <div class="Adentro2">
                 <p id="Titulo">Ingreso Solidario</p>
