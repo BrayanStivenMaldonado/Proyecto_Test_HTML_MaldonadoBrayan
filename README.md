@@ -14,7 +14,7 @@ Esta pagina incluye una cabecera estática con el logotipo del gobierno de Colom
 # Tecnologías utilizadas
 - HTML5
 - CSS
-- Fuentes personalizadas ()
+- Fuentes personalizadas
 
 # Estructura del proyecto
 ![image](/media/Proyect.png)
