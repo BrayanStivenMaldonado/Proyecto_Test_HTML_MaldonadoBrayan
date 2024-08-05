@@ -1,0 +1,20 @@
+# Ingreso Solidario
+Este repositorio contiene el código para una web informativa sobre el programa gubernamental "Ingreso Solidario", una ayuda económica del gobierno Colombiano a las familias que fueron afectadas por la pandemia de COVID-19
+
+# Descripción 
+Esta página web consta de cuatro secciones principales:
+
+1. **Consulta**: Incluye un formulario para que los usuarios que vayan ingresando puedan verificar si son beneficiarios del programa y se les da una breve introducción a lo que es este programa.
+2. **¿Qué es?**: Explica con más exactitud qué es el programa Ingreso Solidario y quienes pueden beneficiarse de este mismo.
+3. **Entrega**: Detalla las etapas de entrega del subsidio y los bancos autorizados para recibir el dinero.
+4. **Preguntas Frecuentes**: Un apartado cuyo fin es responder dudas comunes que pueden tener las personas.
+
+Esta pagina incluye una cabecera estática con el logotipo del gobierno de Colombia y los nombres de las diferentes secciones de la página para que el usuario se pueda mover en ella con más facilidad.
+
+# Tecnologías utilizadas
+
+- HTML5
+- CSS
+- Fuentes personalizadas ()
+
+# Estructura del proyecto
